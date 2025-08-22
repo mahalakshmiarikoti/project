@@ -1,0 +1,85 @@
+Here's a simple PowerPoint presentation outline for your **Invitation Card Generator** project. I'll give you the content slide by slide. You can copy this into PowerPoint or Google Slides.
+
+Slide 1: Title Slide
+
+Title:
+Invitation Card Generator using Python
+
+Subtitle (optional):
+A GUI-based tool to create custom invitation cards
+
+Presented by:
+Your Name
+Your Institution (if any)
+
+Slide 2: Introduction
+
+What is it?
+A Python application that allows users to create personalized invitation cards by:
+
+* Adding a background image
+* Inserting a logo
+* Automatically generating event details
+
+Slide 3: Features
+
+* GUI-based interface (using Tkinter)
+* Support for custom background and logo
+* Auto-generated invitation layout with:
+
+  * Decorative border
+  * Title and event text
+* Saves the final card as an image
+* Previews the invitation using Matplotlib
+
+Slide 4: Technologies Used
+
+Python
+PIL (Pillow): For image manipulation
+Tkinter: For GUI development
+Matplotlib: For displaying the invitation card
+
+Slide 5: How It Works
+
+1. User selects a background image (optional)
+2. User selects a logo image (required)
+3. Application generates a card:
+
+   * Adds background
+   * Draws border and text
+   * Places the logo
+4. Image is saved and displayed
+
+Slide 6: Code Overview
+
+* `create_invitation()` – Core function to generate the card
+* `select_background_image()` – Opens file dialog to choose background
+* `select_logo()` – Opens file dialog to choose logo
+* `generate_invitation()` – Button handler to run generation
+
+You can show a screenshot of the code or highlight main parts
+
+Slide 7: Sample Output
+
+Insert a screenshot of a generated invitation card (e.g., `invitation_card.png`)
+
+Slide 8: Limitations & Improvements
+
+Limitations:
+
+* Fixed invitation text
+* Requires manual image selection
+* Font support depends on system
+
+Future Improvements:
+
+* Customizable text input fields
+* More templates and styles
+* Export as PDF
+
+Slide 9: Conclusion
+
+* A simple and creative way to generate invitation cards using Python
+* Great project to learn image processing, GUI, and file handling
+
+
